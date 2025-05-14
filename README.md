@@ -40,7 +40,7 @@ async def calculate_profit(update: Update, context: ContextTypes.DEFAULT_TYPE) -
 
 def main() -> None:
     # إعداد البوت بالتوكن الخاص بك
-    application = ApplicationBuilder().token("170f738efea039931334926bca4c7a6f341a74ad").build()
+    application = ApplicationBuilder().token("8136003037:AAGu1ybmaRNCfVECCsAairhgiiliT7F_7f8").build()
 
     # إعداد الأوامر
     application.add_handler(CommandHandler("start", start))
